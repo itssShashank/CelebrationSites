@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sam19.celebrationsites">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BachelorRaw" />
+        <activity android:name=".CasualRaw" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".HukkahRaw" />
+        <activity android:name=".LADRaw" />
+        <activity android:name=".OTP" />
+        <activity android:name=".ReceptionRaw" />
+        <activity android:name=".requirements" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TeaRaw" />
+        <activity android:name=".TilakRaw" />
+        <activity android:name=".verify" />
+        <activity android:name=".weldingRaw" />
+        <activity android:name=".MapModule" />
+        <activity android:name=".BachelorMoreDetails" />
+        <activity android:name=".register" />
+        <activity android:name=".log" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".casualmore" />
+        <activity android:name=".ladmore" />
+        <activity android:name=".hukkamore"></activity>
+    </application>
+
+</manifest>

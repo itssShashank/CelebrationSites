@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam19.celebrationsites.ReceptionRaw"
+    android:background="@drawable/back11">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="           BSA LAWN             "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-     BSA LAWN   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" DEWA Road , Adarsh nagar, Matiyari, Kamta,  Lucknow, Uttar Pradesh"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-        70000 to 1000000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbsa"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="           GANPATI LAWN             "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-     GANPATI LAWN   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Haibat Mau Mawaiya, sector 4, Vrindavan Colony , Lucknow, Uttar Pradesh"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         500 to 9000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btntasty"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="  Upvan        "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-    Upvan "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:- Chaya Chauraha, Preet Vihar Colony, Begum Gunj, Barabanki, Uttar Pradesh 225001    "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         500 to 9000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnupvan"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="           ROYAL VRINDAVAN LAWN        "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi11"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:        ROYAL VRINDAVAN LAWN    "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:-  5D\6, Girdhar kunj, Gopeshkunj, Sector 5E, Vrindavan Colony, Lucknow, Uttar Pradesh 226025  "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         50000 to 900000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btndesiaan"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="    UMANG THE PARTY LAWN      "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-           UMANG THE PARTY LAWN     "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:- Munshiganj Raghunandan Plaza|Near, District Hospital, Faizabad Road, Barabanki, Uttar Pradesh 225001   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         100500 to 1119000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnjunction"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="    City Point Restaurant and Banquet Hall      "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:- City Point Restaurant and Banquet Hall    "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:-Shri Sai Plaza, Obaree, Opposite DM Awas, NH-28C, Lucknow Colonelganj Gonda Road, Barabanki, Uttar Pradesh 225001    "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         50000 to 900000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncitypoint"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="    Shree Kunj Lawn    "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-  Shree Kunj Lawn   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:-  Opposite K.D.Singh Babu Stadium, Lko-Faizabad Road, Barabanki, Uttar Pradesh 225001   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         90000 to 600000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnpunjab"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

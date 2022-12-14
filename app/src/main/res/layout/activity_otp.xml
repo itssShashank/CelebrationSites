@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam19.celebrationsites.OTP"
+    android:background="@drawable/back11">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:id="@+id/e"
+        android:hint="Enter Your O.T.P."
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="105dp"
+        android:textSize="18dp"
+        android:text="  a otp has been sent to your number please provide it to us to verify" />
+    
+
+</RelativeLayout>

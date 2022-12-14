@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam19.celebrationsites.DashBoard"
+    android:background="@drawable/back11">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:verticalSpacing="30dp"
+        android:horizontalSpacing="30dp">
+
+
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="Tilak ceremony"
+            android:background="@drawable/tilakp"
+
+            android:textColor="#ffff"
+            android:textStyle="bold"
+
+            android:id="@+id/b2"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="Wedding Ceremony"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/b3"
+            android:textColor="#ffff"
+            android:background="@drawable/marriage" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:background="@drawable/reception"
+            android:id="@+id/b4"
+            android:text="Reception" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:textColor="#ffff"
+            android:background="@drawable/hukkahp"
+            android:textStyle="bold"
+
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/b5"
+            android:text="Hukkah Party" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+
+            android:background="@drawable/casual"
+            android:text="casual Party"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/landd"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/teaparty"
+            android:text="Tea Party"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bachelorp"
+            android:text="Bachelor Party"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+    </GridLayout>
+</ScrollView>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam19.celebrationsites.weldingRaw"
+    android:background="@drawable/back11">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="           NARAYANI PALACE             "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-    Narayani palace "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Parijat Complex, Civil Line, Lucknow  Road, Awas  Vikas  Colony, Barabanki, Uttar Pradesh"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         500 to 9000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btntasty"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="  Upvan        "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-    Upvan "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:- Chaya Chauraha, Preet Vihar Colony, Begum Gunj, Barabanki, Uttar Pradesh 225001    "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         500 to 900000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnupvan"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="  BR Gop        "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:            BR. GOp-     "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:-  Near Jawahar Degree College, Baldev Vihar Telibagh , Lucknow, Uttar Pradesh 225001  "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         50000 to 9000000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btndesiaan"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="    APS LAWN      "
+            android:textSize="30dp"
+            android:background="#c0c0c0"
+            android:shadowColor="#ff0000"
+            android:textColor="#ff0000"
+            />
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sadi4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                DETAILS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME:-       APS LAWN     "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:- Senani vihar Colony, Telibagh, Lucknow, Uttar Pradesh 226001   "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE:-         500 to 900000"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnjunction"
+                android:text="more details"
+                android:layout_marginLeft="250dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
